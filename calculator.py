@@ -1,6 +1,6 @@
 #! /bin/bash
 # #########################################################
-# Author: p4dl0k
+# Author: p4nd4_chz
 # This is a user input calculator
 # This just is for practice
 # I repeat, this is only a test.
