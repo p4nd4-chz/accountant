@@ -2,8 +2,8 @@
 # #########################################################
 # Author: p4dl0k
 # This is a user input calculator
-# This is for practice
-# 
+# This just is for practice
+# I repeat, this is only a test.
 # #########################################################
 
 while True:
@@ -18,8 +18,10 @@ while True:
   elif (menuOption == '*'):
     print(firstNumber * secondNumber)
   elif (menuOption == '/'):
-    print(firstNumber / secondNumber)
+    if (secondNumber == 0):
+      print('you can not do that!')
+    else:
+      print(firstNumber / secondNumber)
+    
   else:
     print("You have typed something unexpected")
-  pass
-   
